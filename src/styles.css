@@ -1,0 +1,15 @@
+body{
+    margin: 0 ; /*スペース*/
+    padding: 0 ;/*余白*/
+    font-size: 15px ; /*文字サイズ*/
+    line-height: 1.618; /*行の高さ*/
+}
+
+/* スマホだけに適用するCSS */
+@media screen and (max-width:479px)
+
+{
+    body{
+        font-size: 13px;    
+        }
+}
